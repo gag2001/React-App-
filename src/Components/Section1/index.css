@@ -1,0 +1,189 @@
+.section1{
+    width: 80%;
+    display: grid;
+grid-template-columns: repeat(4,1fr);
+    grid-auto-rows: minmax(180px,auto);
+    margin : auto;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.section1 div{
+  max-width: 220px;
+}
+.div1{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcjHH0dVtIRwxYzF6zzvv5bZuw15wS0sOhfw&s');
+    background-size:cover;
+   
+}
+
+
+.div2{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDWdl6UYq_S4b0aruawy1B-H5qY5Yn4XQtkA&s');
+    background-size:cover;
+}
+
+
+.div3{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQANMeoYVGM3iT-0QTGXcti7WxEvvAoPhM2wg&s');
+    background-size: cover;
+}
+
+
+.div4{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtdwoF8D8eohqu7iWrUp2ojI5GqfKD2-pWFA&s');
+    background-size: cover;
+}
+
+
+.div5{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdDK5gZp1L-qHLYm9Cu2loXg55e8kSPAS6hw&s');
+    background-size:cover;
+}
+
+
+.div6{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1zykh9rhfnLKTDQvPGqNb3qiSjU8-BlvoCA&s');
+    background-size: cover;
+}
+
+.div7{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDaRZ4Njds9KTaUhX8ZTANM19CZmHahrMnpg&s');
+    background-size: cover;
+}
+
+.div8{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfbDX32cEIoKL8gtE96aYAzRJi5QGObDiWVw&s');
+    background-size: cover;
+}
+
+
+.overlay {
+    
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease; /* Smooth transition */
+  }
+
+  .overlay1 {
+    
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease; /* Smooth transition */
+  }
+
+  .overlay2 {
+    
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease; /* Smooth transition */
+  }
+
+
+  .overlay3 {
+    
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease; /* Smooth transition */
+  }
+
+
+
+  .overlay4 {
+    
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease; /* Smooth transition */
+  }
+
+  .overlay5 {
+    
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease; /* Smooth transition */
+  }
+
+
+  .overlay6 {
+    
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease; /* Smooth transition */
+  }
+
+
+  .overlay7 {
+    
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease; /* Smooth transition */
+  }
+
+
+
+
+  .div1:hover .overlay {
+    opacity: 1; /* Show the overlay on hover */
+  }
+
+  .div1:hover {
+    transform: scale(1.15); /* Scale up the size of div1 */
+  }
+
+
+  .div2:hover .overlay1 {
+    opacity: 1; /* Show the overlay on hover */
+  }
+
+  .div2:hover {
+    transform: scale(1.15); /* Scale up the size of div1 */
+  }
+
+  .div3:hover {
+    transform: scale(1.15); /* Scale up the size of div1 */
+  }
+
+  .div3:hover .overlay2 {
+    opacity: 1; /* Show the overlay on hover */
+  }
+
+
+
+  .div4:hover {
+    transform: scale(1.15); /* Scale up the size of div1 */
+  }
+
+  .div4:hover .overlay3{
+    opacity: 1; /* Show the overlay on hover */
+  }
+
+
+  .div5:hover {
+    transform: scale(1.15); /* Scale up the size of div1 */
+  }
+
+  .div5:hover .overlay4 {
+    opacity: 1; /* Show the overlay on hover */
+  }
+
+
+  .div6:hover {
+    transform: scale(1.15); /* Scale up the size of div1 */
+  }
+
+  .div6:hover .overlay5 {
+    opacity: 1; /* Show the overlay on hover */
+  }
+
+
+
+  .div7:hover {
+    transform: scale(1.15); /* Scale up the size of div1 */
+  }
+
+  .div7:hover .overlay6 {
+    opacity: 1; /* Show the overlay on hover */
+  }
+
+
+
+  .div8:hover {
+    transform: scale(1.15); /* Scale up the size of div1 */
+  }
+
+  .div8:hover .overlay7 {
+    opacity: 1; /* Show the overlay on hover */
+  }

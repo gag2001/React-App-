@@ -1,0 +1,37 @@
+.footer{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    margin-top: 180px;
+    justify-content:flex-end;
+    gap: 30px;
+
+}
+
+
+.img1{
+    background-image: url('https://www.w3schools.com/w3images/map.jpg');
+    background-size: cover;
+    width: 30%;
+    height: 120px;
+}
+
+.inputs {
+    width: 70%;
+}
+
+input{
+    width: 200px;
+    border:1px dotted  rgba(234, 214, 187,0.7);
+}
+
+p{font-size: 10px;color: rgba(234, 214, 187,0.7);}
+
+.inp{
+    width: 97%;
+}
+
+.inputSend{
+    margin-top: 12px;
+    margin-left: 314px;
+}
